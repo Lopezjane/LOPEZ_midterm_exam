@@ -2,7 +2,7 @@ const express = require('express');
 const { Sequelize, DataTypes } = require('sequelize');
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 //database connection
 const sequelize = new Sequelize('LOPEZ_midterm_exam', 'root', '', {
